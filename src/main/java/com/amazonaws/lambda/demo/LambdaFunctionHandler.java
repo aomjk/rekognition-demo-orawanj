@@ -71,7 +71,7 @@ public class LambdaFunctionHandler implements RequestHandler<S3Event, String> {
     
     private static String serviceName = "es";
     private static String region = "us-east-1";
-    private static String aesEndpoint = "https://search-rekog-is5ncychrfjhe5wgtmu2jf7ade.us-east-1.es.amazonaws.com";
+    private static String aesEndpoint = "https://<<es-endpoint>>";
 
     static final AWSCredentialsProvider credentialsProvider = new DefaultAWSCredentialsProviderChain();
 
